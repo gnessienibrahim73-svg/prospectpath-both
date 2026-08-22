@@ -1,0 +1,15 @@
+{
+  "name": "prospectpath-bot",
+  "version": "1.0.0",
+  "description": "Chatbot de qualification de prospects (WhatsApp + Facebook Messenger) pour ProspectPath",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^6.7.0",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
